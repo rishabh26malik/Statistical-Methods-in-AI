@@ -1,0 +1,41 @@
+Is CT <= 2.5?
+True branch
+  Is ID <= 6.5?
+  True branch
+    Is SECSize <= 4.5?
+    True branch
+      2.0
+      False branch
+      Is ID <= 3.5?
+      True branch
+        2.0
+        False branch
+        4.0
+    False branch
+    Is SECSize <= 2.0?
+    True branch
+      Is UCSize <= 3.0?
+      True branch
+        2.0
+        False branch
+        4.0
+      False branch
+      4.0
+  False branch
+  Is CT <= 4.5?
+  True branch
+    Is ID <= 6.5?
+    True branch
+      Is SECSize <= 2.5?
+      True branch
+        2.0
+        False branch
+        4.0
+      False branch
+      4.0
+    False branch
+    Is SECSize <= 0.5?
+    True branch
+      2.0
+      False branch
+      4.0
